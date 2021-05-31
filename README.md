@@ -43,6 +43,8 @@ After the init process completes and the virtualenv is created, you can use the 
 step to activate your virtualenv.
 
 ```
+//app.py 파일의 <...> 항목에 값을 입력 후 실행합니다.
+  
 $ cd dcv-session-manager-infrastructure
 $ python3 -m venv .env
 $ source .env/bin/activate
@@ -50,6 +52,7 @@ $ python3 -m pip install -r requirements.txt
 $ cdk bootstrap aws://<account>/<region>
 $ cdk deploy
 ```
+
 
 ## Security
 
